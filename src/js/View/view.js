@@ -15,7 +15,7 @@ $.ajax({
         $("#duracao").html( response.Runtime)
         $('#historia').html(response.Plot)
         $("#poster").html(`<img src="${response.Poster}">`)
-        // $("#poster").attr("src", response.Poster)
+    
 
     }
 
