@@ -1,0 +1,181 @@
+
+body,html{
+    color:white;
+    background-color: rgb(8, 8, 8);
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    scroll-behavior: smooth;
+}
+h5{
+    text-align: center;
+    color: black;
+}
+header{
+    height:fit-content;
+}
+#header-nav {
+    width: 100%;
+    background-color: black;
+}
+#nav-title{
+    color:rgb(255, 255, 255);
+    align-self: center;
+}
+#nav-texto{
+    display: flex;
+    padding-bottom: 0;
+}
+#nav-buttons{
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Estilização de descrição do corpo */
+#main{
+    height: 95%;
+   
+}
+
+.texto-main {
+    height: 100%;
+    background-image: url(../img/darkbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-corpo{
+    width: 40%;
+    border-bottom: 10px;
+    border-color: gray;
+}
+
+.segundo{
+    z-index: 10;
+}
+
+
+
+.img-corpo{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+strong{
+    color: rgb(0, 137, 250);
+
+}
+
+ .card-img-top{
+         width: 286px;
+         height: 190px;
+         flex-basis: auto;
+     } 
+
+.container-cards{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#img-texto{
+    width: 500px;
+     max-width: 100%;
+
+}
+.card{
+    border-color: gray;
+    border-radius: 0;
+    width: 30%;
+}
+.card-text{
+    color: black;
+    text-align: justify;
+}
+
+#perguntas{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15%;
+}
+.accordion-item{
+    width: 70%;
+    color: black;
+}
+.rodape{
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+
+@media (max-width:900px) {
+    body{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    }
+    
+    #header-nav{
+        flex-direction: column;
+        position: static;
+    }
+    #header-container{
+        flex-direction: column;
+    }
+    #nav-container{
+        flex-direction: column;
+    }
+    #nav-buttons{
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .main{
+        width: 100%;
+    }
+    .container-cards{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .cards{
+        width: 100%;
+    }
+    .main-container{
+
+        flex-direction: column;
+        
+    }
+    .texto-corpo {
+        width: 80%;
+        text-align: center;
+    }
+}
+ 
+
+
+
+
+
+

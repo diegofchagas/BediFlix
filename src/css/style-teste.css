@@ -1,0 +1,100 @@
+body,html{
+    color:white;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+
+h1{
+    color: white;
+}
+
+h1:hover{
+    color: #0dcaf0;
+    transform: scale(1.1);
+    transition: 1s; 
+  }
+
+ #header-nav {
+    width: 100%;
+    background-color: black;
+} 
+#nav-title{
+    color:rgb(255, 255, 255);
+    align-self: center;
+}
+#nav-texto{
+    display: flex;
+    padding-bottom: 0;
+}
+#nav-buttons{
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main{
+    height: 95%;
+    height: 785px;
+    position: relative;
+}
+
+
+.main-container{
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width:900px) {
+    body{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    }
+    
+    #header-nav{
+        flex-direction: column;
+        position: static;
+    }
+    #header-container{
+        flex-direction: column;
+    }
+    #nav-container{
+        flex-direction: column;
+    }
+    #nav-buttons{
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .main{
+        width: 100%;
+    }
+    .container-cards{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .cards{
+        width: 100%;
+    }
+    .main-container{
+
+        flex-direction: column;
+        
+    }
+    .texto-corpo {
+        width: 80%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+main{
+    margin-bottom: 130px;
+}
+
+ header h1{
+   color: white;
+}
+
+h4{ color: white;}
+
+h1:hover{
+    color: #0dcaf0;
+    transform: scale(1.1);
+    transition: 1s; 
+  
+}
+
+.container{
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #131922;
+    opacity: 85%;
+    border-radius: 5px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form .senha{
+    width: 30%;
+}
+
+.btn-primary:hover{
+    background-color: rgba(53, 59, 97, 0.6);
+    color: #0dcaf0;
+    transform: scale(1);
+    transition: 1s; 
+  }
